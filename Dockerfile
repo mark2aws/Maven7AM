@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER ravindra ravindra.devops@gmail.com
+MAINTAINER markandeyajakka@gmail.com
 RUN mkdir /opt/Tomcat
 WORKDIR /opt/Tomcat
 RUN curl -O https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.78/bin/apache-tomcat-8.5.78.tar.gz
